@@ -1,0 +1,68 @@
+* Reconnaissance Passive
+  - Google dorks (GHDB) 
+  - Whois
+  - Dig
+  - Pastebin
+  - https://canary.pw/
+  - fierce
+  - theharvester
+  - robtex
+  - https://www.shodan.io/
+  - Bing
+  - Reconnoiter
+  -metagoofil
+  - foca
+  - SET - social engineering toolkit
+  - 
+
+* Reconnaissance Active
+  - lister les ports tcp/udp ouverts
+    Linux -> netstat -planture | grep -v LISTEN
+    Window  
+
+* Fuzzing
+  - wfuzz
+  - Dirbuster
+
+* Cassage de hash en local
+
+*bruteforce mot de passe à distance
+
+* SQL Injection
+  - sqlmap
+
+* Scanner de vulnérabilités
+  - nikto
+
+* Failles Web
+  - Injection de commandes
+  - LFI/RFI
+  - CSRF
+  - XSS
+    # xsser
+    # Beef
+  - 
+
+* Analyse de dump
+
+* framework d'attaque/d'exploitation
+  - w3af
+
+* Invisibilité
+
+* Maintien des accès
+
+* Chiffrement disque dur
+
+* Stéganographie
+
+* Forensic
+
+* Reverse
+
+* Proxy/Modification requetes HTTP
+  - Burp
+  - FoxyProxy
+  - 
+
+* Capture réseau
