@@ -10,21 +10,28 @@
   - https://www.shodan.io/
   - Bing
   - Reconnoiter
-  -metagoofil
+  - metagoofil
   - foca
   - SET - social engineering toolkit
-  - 
+  - DNS - Transfert de zone
+  - snmpenum
 
 * Reconnaissance Active
+  - Nmap
   - lister les ports tcp/udp ouverts
     Linux -> netstat -planture | grep -v LISTEN
-    Window  
+    Window  -> netstat -noab | findstr LISTENING
+            -> netstat -naob | grep -A1 LISTENING
+            -> netstat -naob | sed -n'/LISTENING/ {N; s/\n/\t/;p}'
 
 * Fuzzing
   - wfuzz
   - Dirbuster
 
 * Cassage de hash en local
+  - John the ripper
+  - hashcat
+  - oclHashcat
 
 *bruteforce mot de passe à distance
 
@@ -33,6 +40,8 @@
 
 * Scanner de vulnérabilités
   - nikto
+  - openvas
+  - nessus
 
 * Failles Web
   - Injection de commandes
@@ -44,6 +53,7 @@
   - 
 
 * Analyse de dump
+  - Volatility
 
 * framework d'attaque/d'exploitation
   - w3af
@@ -67,3 +77,19 @@
   - 
 
 * Capture réseau
+
+* Backdoor
+
+* Tunneling et Pivoting
+
+* Exploitation
+  - Mimikatz
+  - Metasploit
+
+* Attaques
+  # MITM
+    - arpspoof
+    - ettercap
+    - cain & Abel
+
+Social Enginering
